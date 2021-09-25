@@ -13,6 +13,10 @@
   - [Create views](#create-views)
     - [Create layout file](#create-layout-file)
     - [Posts view](#posts-view)
+      - [1. resources/views/post/create.blade.php](#1-resourcesviewspostcreatebladephp)
+      - [2. resources/views/post/edit.blade.php](#2-resourcesviewsposteditbladephp)
+      - [3. resources/views/post/index.blade.php](#3-resourcesviewspostindexbladephp)
+      - [4. resources/views/post/show.blade.php](#4-resourcesviewspostshowbladephp)
   - [Summary](#summary)
 
 Hello developers, Today I am going to create a laravel application to perform crud operations (create, read, update, upload, and delete) with laravel 8 and MySQL database. I hope it may help you to understand laravel 8 and MySQL database how things work.
@@ -353,7 +357,7 @@ Create `layout.blade.php` in `resources/views` folder.
 
 Now we need to create 4 files for crud operation.
 
-    1. `resources/views/post/create.blade.php`
+#### 1. resources/views/post/create.blade.php
 
 ```php
 @extends('layout')
@@ -410,7 +414,7 @@ Now we need to create 4 files for crud operation.
 @endsection
 
 ```
-    2. `resources/views/post/edit.blade.php`
+#### 2. resources/views/post/edit.blade.php
 
 ```php
 
@@ -471,7 +475,7 @@ Now we need to create 4 files for crud operation.
 
 ```
 
-    3. resources/views/post/index.blade.php
+#### 3. resources/views/post/index.blade.php
 
 ```php
 
@@ -526,7 +530,7 @@ Now we need to create 4 files for crud operation.
 
 ```
 
-    4. `resources/views/post/show.blade.php`
+#### 4. resources/views/post/show.blade.php
 
 ```php
 
