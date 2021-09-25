@@ -4,6 +4,19 @@
 
 ![Stripe payment](https://hackeradda.com/uploads/2021/09/hackeradda.com-6149b5d3db323.jpg)
 
+- [Stripe payment gateway with laravel 8](#stripe-payment-gateway-with-laravel-8)
+      - [Table of Contents](#table-of-contents)
+  - [Create Laravel 8.0 project](#create-laravel-80-project)
+  - [Install stripe package for laravel](#install-stripe-package-for-laravel)
+  - [Setup Stripe Payment Gateway Keys](#setup-stripe-payment-gateway-keys)
+  - [Creating Routes](#creating-routes)
+    - [routes/web.php](#routeswebphp)
+  - [Creating Controller](#creating-controller)
+    - [app/Http/Controllers/StripeCtrl.php](#apphttpcontrollersstripectrlphp)
+  - [Creating the View](#creating-the-view)
+    - [resources/views/stripe.blade.php](#resourcesviewsstripebladephp)
+  - [Test card details](#test-card-details)
+  - [Summary](#summary)
 
 Hello, Today I will discuss how to integrate the **Stripe payment gateway** with our laravel 8.0 project to start accepting payments. As we all know that the stripe is a globally known payment and accepting payment in almost all currencies and [countries](https://stripe.com/global). for more information please visit stripe's official website - [https://stripe.com](https://stripe.com)
 

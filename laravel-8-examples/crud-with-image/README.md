@@ -4,14 +4,25 @@
 
 ![Larave 8 CRUD](https://miro.medium.com/max/2000/1*7VyVhGMQgzyYgqChmaIkmw.jpeg)
 
+- [CRUD example with Image Upload in Laravel 8](#crud-example-with-image-upload-in-laravel8)
+  - [Change configuration](#change-configuration)
+  - [Create a migration](#create-a-migration)
+  - [Migrate tables](#migrate-tables)
+  - [Create controller and model](#create-controller-and-model)
+  - [Setup routes](#setup-routes)
+  - [Create views](#create-views)
+    - [Create layout file](#create-layout-file)
+    - [Posts view](#posts-view)
+  - [Summary](#summary)
+
 Hello developers, Today I am going to create a laravel application to perform crud operations (create, read, update, upload, and delete) with laravel 8 and MySQL database. I hope it may help you to understand laravel 8 and MySQL database how things work.
 So let's get started by creating a Laravel application. Run the following command to create a Laravel application.
 
 ```bash
-composer create-project --prefer-dist laravel/laravel laravel-8-crud-app
+composer create-project --prefer-dist laravel/laravel laravel-8-crud-app "8.*"
 ```
 
-I have created a Laravel application with "laravel-8-crud" name, now open this project with your favorite text editor and edit the .env file to change the database configuration.
+I have created a Laravel application"8.*" with "laravel-8-crud" name, now open this project with your favorite text editor and edit the .env file to change the database configuration.
 
 ## Change configuration
 
