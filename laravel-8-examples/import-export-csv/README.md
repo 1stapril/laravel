@@ -5,6 +5,7 @@
 ![Larave 8 Import & Export CSV](https://miro.medium.com/max/2000/1*9ziQCax7ToFmD1q2DQu75w.jpeg)
 
 - [Import and export CSV in Laravel 8 and MySql](#import-and-export-csv-in-laravel8-and-mysql)
+  - [Download Sample files](#download-sample-files)
   - [Change configuration](#change-configuration)
   - [Create a migration](#create-a-migration)
   - [Migrate tables](#migrate-tables)
@@ -25,6 +26,10 @@ composer create-project --prefer-dist laravel/laravel laravel-8-import-expoert "
 ```
 
 It will create a new laravel 8.* application with `laravel-8-import-export name, now we need to open it via our favorite text editor.
+
+## Download Sample files
+
+[sample file](https://github.com/harendra21/laravel/blob/main/laravel-8-examples/import-export-csv/public/subscribers.csv)
 
 ## Change configuration
 
